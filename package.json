@@ -1,0 +1,22 @@
+{
+  "name": "headless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker-up":"docker-compose up",
+    "docker-down": "docker-compose down",
+    "docker-build": "docker-compose up --build"
+  },
+  "engines": {
+    "node" : ">=20.0.0"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@crawlee/browser-pool": "^3.13.3",
+    "playwright-core": "^1.52.0"
+  }
+}
