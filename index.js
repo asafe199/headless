@@ -7,7 +7,7 @@ const browserPool = new BrowserPool({
             new PlaywrightPlugin(chromium, {
                 // executablePath: path.join(chromium.executablePath()),
                 launchOptions: {
-                    headless: false,
+                    headless: true,
                     args: [
                         '--no-sandbox',
                         '--disable-setuid-sandbox',
