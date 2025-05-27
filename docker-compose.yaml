@@ -4,3 +4,5 @@ services:
     container_name: headless-app
     ports:
       - "3000:3000"
+    environment:
+      - DEBUG=pw:browser,pw:api
